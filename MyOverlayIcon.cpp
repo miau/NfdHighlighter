@@ -44,7 +44,10 @@ STDMETHODIMP CMyOverlayIcon::IsMemberOf(LPCWSTR pwszPath, DWORD dwAttrib)
   _wcslwr(s);
 
   // Criteria
-  if (wcsstr(s, L"codeproject") != 0)
+  if (wcspbrk(s,
+      L"\x3099"  // Combining Katakana-Hiragana Voiced Sound Mark
+      L"\x309a"  // Combining Katakana-Hiragana Semi-Voiced Sound Mark
+      ) != NULL)
     r = S_OK;
 
   free(s);
