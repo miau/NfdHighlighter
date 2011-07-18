@@ -2,8 +2,8 @@ HKCR
 {
 	NoRemove AppID
 	{
-		'%APPID%' = s 'OverlayIcon'
-		'OverlayIcon.DLL'
+		'%APPID%' = s 'NfdHighlighter'
+		'NfdHighlighter.DLL'
 		{
 			val AppID = s '%APPID%'
 		}

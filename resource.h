@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by OverlayIcon.rc
+// Used by NfdHighlighter.rc
 //
 #define IDS_PROJNAME                    100
 #define IDR_OVERLAYICON                 101

@@ -2,7 +2,7 @@
 
 #pragma once
 #include "resource.h"       // main symbols
-#include "OverlayIcon.h"
+#include "NfdHighlighter.h"
 
 
 
@@ -11,7 +11,7 @@
 class ATL_NO_VTABLE CMyOverlayIcon : 
 	public CComObjectRootEx<CComSingleThreadModel>,
 	public CComCoClass<CMyOverlayIcon, &CLSID_MyOverlayIcon>,
-	public IDispatchImpl<IMyOverlayIcon, &IID_IMyOverlayIcon, &LIBID_OverlayIconLib, /*wMajor =*/ 1, /*wMinor =*/ 0>,
+	public IDispatchImpl<IMyOverlayIcon, &IID_IMyOverlayIcon, &LIBID_NfdHighlighterLib, /*wMajor =*/ 1, /*wMinor =*/ 0>,
   public IShellIconOverlayIdentifier
 {
 public:

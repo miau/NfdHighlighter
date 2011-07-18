@@ -1,8 +1,8 @@
-// OverlayIcon.idl : IDL source for OverlayIcon
+// NfdHighlighter.idl : IDL source for NfdHighlighter
 //
 
 // This file will be processed by the MIDL tool to
-// produce the type library (OverlayIcon.tlb) and marshalling code.
+// produce the type library (NfdHighlighter.tlb) and marshalling code.
 
 import "oaidl.idl";
 import "ocidl.idl";
@@ -20,9 +20,9 @@ interface IMyOverlayIcon : IDispatch{
 [
 	uuid(ADF1FA2A-6EAA-4A97-A55F-3C8B92843EF5),
 	version(1.0),
-	helpstring("OverlayIcon 1.0 Type Library")
+	helpstring("NfdHighlighter 1.0 Type Library")
 ]
-library OverlayIconLib
+library NfdHighlighterLib
 {
 	importlib("stdole2.tlb");
 	[

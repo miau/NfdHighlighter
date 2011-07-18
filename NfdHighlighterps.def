@@ -1,5 +1,5 @@
 
-LIBRARY      "OverlayIconPS"
+LIBRARY      "NfdHighlighterPS"
 
 EXPORTS
 	DllGetClassObject       PRIVATE

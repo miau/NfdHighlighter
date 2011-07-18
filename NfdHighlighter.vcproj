@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="7.00"
-	Name="OverlayIcon"
+	Name="NfdHighlighter"
 	ProjectGUID="{99BB894F-15BB-49C0-A179-A07CE3054C38}"
 	Keyword="AtlProj">
 	<Platforms>
@@ -34,12 +34,12 @@
 			<Tool
 				Name="VCLinkerTool"
 				IgnoreImportLibrary="TRUE"
-				OutputFile="$(OutDir)/OverlayIcon.dll"
+				OutputFile="$(OutDir)/NfdHighlighter.dll"
 				LinkIncremental="2"
-				ModuleDefinitionFile=".\OverlayIcon.def"
+				ModuleDefinitionFile=".\NfdHighlighter.def"
 				GenerateDebugInformation="TRUE"
 				SubSystem="2"
-				ImportLibrary="$(OutDir)/OverlayIcon.lib"
+				ImportLibrary="$(OutDir)/NfdHighlighter.lib"
 				TargetMachine="1"/>
 			<Tool
 				Name="VCMIDLTool"
@@ -47,11 +47,11 @@
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
-				TypeLibraryName="$(IntDir)/OverlayIcon.tlb"
-				HeaderFileName="OverlayIcon.h"
+				TypeLibraryName="$(IntDir)/NfdHighlighter.tlb"
+				HeaderFileName="NfdHighlighter.h"
 				DLLDataFileName=""
-				InterfaceIdentifierFileName="OverlayIcon_i.c"
-				ProxyFileName="OverlayIcon_p.c"/>
+				InterfaceIdentifierFileName="NfdHighlighter_i.c"
+				ProxyFileName="NfdHighlighter_p.c"/>
 			<Tool
 				Name="VCPostBuildEventTool"
 				Description="Performing registration"
@@ -94,14 +94,14 @@
 			<Tool
 				Name="VCLinkerTool"
 				IgnoreImportLibrary="TRUE"
-				OutputFile="$(OutDir)/OverlayIcon.dll"
+				OutputFile="$(OutDir)/NfdHighlighter.dll"
 				LinkIncremental="1"
-				ModuleDefinitionFile=".\OverlayIcon.def"
+				ModuleDefinitionFile=".\NfdHighlighter.def"
 				GenerateDebugInformation="TRUE"
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
-				ImportLibrary="$(OutDir)/OverlayIcon.lib"
+				ImportLibrary="$(OutDir)/NfdHighlighter.lib"
 				TargetMachine="1"/>
 			<Tool
 				Name="VCMIDLTool"
@@ -109,11 +109,11 @@
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
-				TypeLibraryName="$(IntDir)/OverlayIcon.tlb"
-				HeaderFileName="OverlayIcon.h"
+				TypeLibraryName="$(IntDir)/NfdHighlighter.tlb"
+				HeaderFileName="NfdHighlighter.h"
 				DLLDataFileName=""
-				InterfaceIdentifierFileName="OverlayIcon_i.c"
-				ProxyFileName="OverlayIcon_p.c"/>
+				InterfaceIdentifierFileName="NfdHighlighter_i.c"
+				ProxyFileName="NfdHighlighter_p.c"/>
 			<Tool
 				Name="VCPostBuildEventTool"
 				Description="Performing registration"
@@ -141,13 +141,13 @@
 				RelativePath="MyOverlayIcon.cpp">
 			</File>
 			<File
-				RelativePath="OverlayIcon.cpp">
+				RelativePath="NfdHighlighter.cpp">
 			</File>
 			<File
-				RelativePath="OverlayIcon.def">
+				RelativePath="NfdHighlighter.def">
 			</File>
 			<File
-				RelativePath="OverlayIcon.idl">
+				RelativePath="NfdHighlighter.idl">
 			</File>
 			<File
 				RelativePath="stdafx.cpp">
@@ -185,10 +185,10 @@
 				RelativePath="MyOverlayIcon.rgs">
 			</File>
 			<File
-				RelativePath="OverlayIcon.rc">
+				RelativePath="NfdHighlighter.rc">
 			</File>
 			<File
-				RelativePath="OverlayIcon.rgs">
+				RelativePath="NfdHighlighter.rgs">
 			</File>
 			<File
 				RelativePath="my.ico">
@@ -198,7 +198,7 @@
 			Name="Generated Files"
 			SourceControlFiles="FALSE">
 			<File
-				RelativePath="OverlayIcon_i.c">
+				RelativePath="NfdHighlighter_i.c">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool

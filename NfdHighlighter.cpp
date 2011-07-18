@@ -1,17 +1,17 @@
-// OverlayIcon.cpp : Implementation of DLL Exports.
+// NfdHighlighter.cpp : Implementation of DLL Exports.
 
 #include "stdafx.h"
 #include "resource.h"
-#include "OverlayIcon.h"
+#include "NfdHighlighter.h"
 
-class COverlayIconModule : public CAtlDllModuleT< COverlayIconModule >
+class CNfdHighlighterModule : public CAtlDllModuleT< CNfdHighlighterModule >
 {
 public :
-	DECLARE_LIBID(LIBID_OverlayIconLib)
+	DECLARE_LIBID(LIBID_NfdHighlighterLib)
 	DECLARE_REGISTRY_APPID_RESOURCEID(IDR_OVERLAYICON, "{FA8EDCDD-EFA2-477B-B00A-7F28F02CD37E}")
 };
 
-COverlayIconModule _AtlModule;
+CNfdHighlighterModule _AtlModule;
 
 
 // DLL Entry Point

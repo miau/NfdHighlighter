@@ -40,7 +40,7 @@ END
 
 3 TEXTINCLUDE 
 BEGIN
-    "1 TYPELIB ""OverlayIcon.tlb""\r\n"
+    "1 TYPELIB ""NfdHighlighter.tlb""\r\n"
     "\0"
 END
 
@@ -73,8 +73,8 @@ BEGIN
             VALUE "FileDescription", "TODO: <File description>"
             VALUE "FileVersion", "1.0.0.1"
             VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
-            VALUE "InternalName", "OverlayIcon.dll"
-            VALUE "OriginalFilename", "OverlayIcon.dll"
+            VALUE "InternalName", "NfdHighlighter.dll"
+            VALUE "OriginalFilename", "NfdHighlighter.dll"
             VALUE "ProductName", "TODO: <Product name>"
             VALUE "ProductVersion", "1.0.0.1"
         END
@@ -91,7 +91,7 @@ END
 // REGISTRY
 //
 
-IDR_OVERLAYICON         REGISTRY                "OverlayIcon.rgs"
+IDR_OVERLAYICON         REGISTRY                "NfdHighlighter.rgs"
 IDR_MYOVERLAYICON       REGISTRY                "MyOverlayIcon.rgs"
 
 /////////////////////////////////////////////////////////////////////////////
@@ -110,7 +110,7 @@ IDI_ICON1               ICON                    "my.ico"
 
 STRINGTABLE 
 BEGIN
-    IDS_PROJNAME            "OverlayIcon"
+    IDS_PROJNAME            "NfdHighlighter"
 END
 
 #endif    // English (U.S.) resources
@@ -123,7 +123,7 @@ END
 //
 // Generated from the TEXTINCLUDE 3 resource.
 //
-1 TYPELIB "OverlayIcon.tlb"
+1 TYPELIB "NfdHighlighter.tlb"
 
 /////////////////////////////////////////////////////////////////////////////
 #endif    // not APSTUDIO_INVOKED

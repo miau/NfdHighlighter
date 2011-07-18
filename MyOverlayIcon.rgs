@@ -1,20 +1,20 @@
 HKCR
 {
-	OverlayIcon.MyOverlayIcon.1 = s 'MyOverlayIcon Class'
+	NfdHighlighter.MyOverlayIcon.1 = s 'MyOverlayIcon Class'
 	{
 		CLSID = s '{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D40}'
 	}
-	OverlayIcon.MyOverlayIcon = s 'MyOverlayIcon Class'
+	NfdHighlighter.MyOverlayIcon = s 'MyOverlayIcon Class'
 	{
 		CLSID = s '{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D40}'
-		CurVer = s 'OverlayIcon.MyOverlayIcon.1'
+		CurVer = s 'NfdHighlighter.MyOverlayIcon.1'
 	}
 	NoRemove CLSID
 	{
 		ForceRemove {81539FE6-33C7-4CE7-90C7-1C7B8F2F2D40} = s 'MyOverlayIcon Class'
 		{
-			ProgID = s 'OverlayIcon.MyOverlayIcon.1'
-			VersionIndependentProgID = s 'OverlayIcon.MyOverlayIcon'
+			ProgID = s 'NfdHighlighter.MyOverlayIcon.1'
+			VersionIndependentProgID = s 'NfdHighlighter.MyOverlayIcon'
 			ForceRemove 'Programmable'
 			InprocServer32 = s '%MODULE%'
 			{

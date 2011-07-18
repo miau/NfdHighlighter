@@ -1,6 +1,6 @@
-; OverlayIcon.def : Declares the module parameters.
+; NfdHighlighter.def : Declares the module parameters.
 
-LIBRARY      "OverlayIcon.DLL"
+LIBRARY      "NfdHighlighter.DLL"
 
 EXPORTS
 	DllCanUnloadNow		PRIVATE
