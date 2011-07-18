@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="7.00"
 	Name="NfdHighlighterPS"
-	ProjectGUID="{EB535A1B-6FD7-4B9F-BD67-1015D94D333E}"
+	ProjectGUID="{6857AD16-A2D1-402A-BD92-F166A7049A90}"
 	Keyword="AtlPSProj">
 	<Platforms>
 		<Platform

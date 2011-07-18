@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 7.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NfdHighlighter", "NfdHighlighter.vcproj", "{99BB894F-15BB-49C0-A179-A07CE3054C38}"
+Project("{2B1A7D16-C199-442A-ADF4-8ED941937541}") = "NfdHighlighter", "NfdHighlighter.vcproj", "{DD44EDE5-7ACA-4429-A083-627BC4A39DE5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NfdHighlighterPS", "NfdHighlighterPS.vcproj", "{EB535A1B-6FD7-4B9F-BD67-1015D94D333E}"
+Project("{2B1A7D16-C199-442A-ADF4-8ED941937541}") = "NfdHighlighterPS", "NfdHighlighterPS.vcproj", "{6857AD16-A2D1-402A-BD92-F166A7049A90}"
 EndProject
 Global
 	GlobalSection(SolutionConfiguration) = preSolution
@@ -9,15 +9,15 @@ Global
 		ConfigName.1 = Release
 	EndGlobalSection
 	GlobalSection(ProjectDependencies) = postSolution
-		{EB535A1B-6FD7-4B9F-BD67-1015D94D333E}.0 = {99BB894F-15BB-49C0-A179-A07CE3054C38}
+		{6857AD16-A2D1-402A-BD92-F166A7049A90}.0 = {DD44EDE5-7ACA-4429-A083-627BC4A39DE5}
 	EndGlobalSection
 	GlobalSection(ProjectConfiguration) = postSolution
-		{99BB894F-15BB-49C0-A179-A07CE3054C38}.Debug.ActiveCfg = Debug|Win32
-		{99BB894F-15BB-49C0-A179-A07CE3054C38}.Debug.Build.0 = Debug|Win32
-		{99BB894F-15BB-49C0-A179-A07CE3054C38}.Release.ActiveCfg = Release|Win32
-		{99BB894F-15BB-49C0-A179-A07CE3054C38}.Release.Build.0 = Release|Win32
-		{EB535A1B-6FD7-4B9F-BD67-1015D94D333E}.Debug.ActiveCfg = Debug|Win32
-		{EB535A1B-6FD7-4B9F-BD67-1015D94D333E}.Release.ActiveCfg = Release|Win32
+		{DD44EDE5-7ACA-4429-A083-627BC4A39DE5}.Debug.ActiveCfg = Debug|Win32
+		{DD44EDE5-7ACA-4429-A083-627BC4A39DE5}.Debug.Build.0 = Debug|Win32
+		{DD44EDE5-7ACA-4429-A083-627BC4A39DE5}.Release.ActiveCfg = Release|Win32
+		{DD44EDE5-7ACA-4429-A083-627BC4A39DE5}.Release.Build.0 = Release|Win32
+		{6857AD16-A2D1-402A-BD92-F166A7049A90}.Debug.ActiveCfg = Debug|Win32
+		{6857AD16-A2D1-402A-BD92-F166A7049A90}.Release.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 	EndGlobalSection

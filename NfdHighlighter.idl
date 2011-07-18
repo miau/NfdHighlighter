@@ -9,7 +9,7 @@ import "ocidl.idl";
 
 [
 	object,
-	uuid(7BCA6879-A9F8-47DE-AE05-F5CE7EA3A474),
+	uuid(B20E32BF-D4A3-4531-9030-E13D2B6A642A),
 	dual,
 	nonextensible,
 	helpstring("IMyOverlayIcon Interface"),
@@ -18,7 +18,7 @@ import "ocidl.idl";
 interface IMyOverlayIcon : IDispatch{
 };
 [
-	uuid(ADF1FA2A-6EAA-4A97-A55F-3C8B92843EF5),
+	uuid(8F8AE675-182D-4F64-B501-D92264C57598),
 	version(1.0),
 	helpstring("NfdHighlighter 1.0 Type Library")
 ]
@@ -26,7 +26,7 @@ library NfdHighlighterLib
 {
 	importlib("stdole2.tlb");
 	[
-		uuid(81539FE6-33C7-4CE7-90C7-1C7B8F2F2D40),
+		uuid(FDCA2A20-D464-4FAE-AF1A-0924DF298D0F),
 		helpstring("MyOverlayIcon Class")
 	]
 	coclass MyOverlayIcon

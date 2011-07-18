@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="7.00"
 	Name="NfdHighlighter"
-	ProjectGUID="{99BB894F-15BB-49C0-A179-A07CE3054C38}"
+	ProjectGUID="{DD44EDE5-7ACA-4429-A083-627BC4A39DE5}"
 	Keyword="AtlProj">
 	<Platforms>
 		<Platform

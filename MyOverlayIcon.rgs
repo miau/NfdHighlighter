@@ -2,16 +2,16 @@ HKCR
 {
 	NfdHighlighter.MyOverlayIcon.1 = s 'MyOverlayIcon Class'
 	{
-		CLSID = s '{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D40}'
+		CLSID = s '{FDCA2A20-D464-4FAE-AF1A-0924DF298D0F}'
 	}
 	NfdHighlighter.MyOverlayIcon = s 'MyOverlayIcon Class'
 	{
-		CLSID = s '{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D40}'
+		CLSID = s '{FDCA2A20-D464-4FAE-AF1A-0924DF298D0F}'
 		CurVer = s 'NfdHighlighter.MyOverlayIcon.1'
 	}
 	NoRemove CLSID
 	{
-		ForceRemove {81539FE6-33C7-4CE7-90C7-1C7B8F2F2D40} = s 'MyOverlayIcon Class'
+		ForceRemove {FDCA2A20-D464-4FAE-AF1A-0924DF298D0F} = s 'MyOverlayIcon Class'
 		{
 			ProgID = s 'NfdHighlighter.MyOverlayIcon.1'
 			VersionIndependentProgID = s 'NfdHighlighter.MyOverlayIcon'
@@ -21,7 +21,7 @@ HKCR
 				val ThreadingModel = s 'Apartment'
 			}
 			val AppID = s '%APPID%'
-			'TypeLib' = s '{ADF1FA2A-6EAA-4A97-A55F-3C8B92843EF5}'
+			'TypeLib' = s '{8F8AE675-182D-4F64-B501-D92264C57598}'
 		}
 	}
 }
@@ -40,7 +40,7 @@ HKLM
           {
             NoRemove ShellIconOverlayIdentifiers
             {
-              ForceRemove MyOverlayIcon = s '{81539FE6-33C7-4CE7-90C7-1C7B8F2F2D40}'
+              ForceRemove MyOverlayIcon = s '{FDCA2A20-D464-4FAE-AF1A-0924DF298D0F}'
               {
               }           
             }
