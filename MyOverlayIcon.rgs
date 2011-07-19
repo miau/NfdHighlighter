@@ -1,17 +1,17 @@
 HKCR
 {
-	NfdHighlighter.MyOverlayIcon.1 = s 'MyOverlayIcon Class'
+	NfdHighlighter.MyOverlayIcon.1 = s 'NfdHighlighter MyOverlayIcon Class'
 	{
 		CLSID = s '{FDCA2A20-D464-4FAE-AF1A-0924DF298D0F}'
 	}
-	NfdHighlighter.MyOverlayIcon = s 'MyOverlayIcon Class'
+	NfdHighlighter.MyOverlayIcon = s 'NfdHighlighter MyOverlayIcon Class'
 	{
 		CLSID = s '{FDCA2A20-D464-4FAE-AF1A-0924DF298D0F}'
 		CurVer = s 'NfdHighlighter.MyOverlayIcon.1'
 	}
 	NoRemove CLSID
 	{
-		ForceRemove {FDCA2A20-D464-4FAE-AF1A-0924DF298D0F} = s 'MyOverlayIcon Class'
+		ForceRemove {FDCA2A20-D464-4FAE-AF1A-0924DF298D0F} = s 'NfdHighlighter MyOverlayIcon Class'
 		{
 			ProgID = s 'NfdHighlighter.MyOverlayIcon.1'
 			VersionIndependentProgID = s 'NfdHighlighter.MyOverlayIcon'
